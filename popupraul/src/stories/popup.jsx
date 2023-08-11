@@ -4,7 +4,6 @@ export const Popup=()=>{
         <div>
             <h4>Proyecto Popup</h4>
             <button onClick={()=>console.log("hizo click")}>Abrir Popup</button>
-        
         </div>
      </>
     )
