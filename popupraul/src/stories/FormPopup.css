@@ -19,9 +19,24 @@
     width: 100%;
     border: solid rgb(240, 243, 240);
 }
+.B_cerrar{
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: -45px;
+    margin-right: 5px;
+    padding-right: 0;
+    float: right;
+    cursor: pointer;
+    background-image: url('./assets/cerrar2.png');
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+}
 .Form_popup .Form_header h2 {
     font: 1em sans-serif;
     color: white;
+    padding-right: 0;
+    margin-left: 0;
 }
 .form_cuerpo{
     padding-top: 0;

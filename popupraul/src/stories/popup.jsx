@@ -1,3 +1,4 @@
+import { Formpopup } from "./form_popup";
 export const Popup=()=>{
     return(
      <>
@@ -5,6 +6,7 @@ export const Popup=()=>{
             <h4>Proyecto Popup</h4>
             <button onClick={()=>console.log("hizo click")}>Abrir Popup</button>
         </div>
+        <Formpopup></Formpopup>
      </>
     )
 };
