@@ -5,5 +5,7 @@ export default{
     component:Formpopup
 };
 export const Primary={
-    
+    args:{
+        label:'Titulo'
+    }
 }

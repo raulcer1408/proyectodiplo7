@@ -6,5 +6,5 @@ export default{
 };
 
 export const Primary={
-    
+    label:"Formulario Popup"
 }

@@ -1,12 +1,12 @@
 import PropsType from 'prop-types';
 import './FormPopup.css'
-export const Formpopup=({setIsopen})=>{
+export const Formpopup=({setIsopen,label})=>{
     return(
      <>
     <div className="container">
     <div className='Form_popup'>
      <div className="Form_header">
-      <h2>Modal title</h2>
+      <h2>{label}</h2>
       <div className='B_cerrar' onClick={()=>setIsopen(false)}>
       </div>
      </div>
@@ -22,5 +22,10 @@ Lacus non porta fusce nostra taciti nulla potenti dictumst iaculis, egestas null
 };
 
 Formpopup.propTypes={
-  setIsopen:PropsType.bool
-}
+  setIsopen:PropsType.bool,
+  label:PropsType.string
+};
+
+Formpopup.defaultProps={
+  label:'Formulario popup'
+};
